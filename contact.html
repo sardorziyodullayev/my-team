@@ -45,7 +45,7 @@
               </ul>
             </nav>
           </div>
-          <a class="contakt-us" href="contact.html">contact us</a>
+          <a class="contakt-us" href="#link">contact us</a>
           <button class="hamburger" type="button">
             <img
               src="./img/bars-solid.svg"
@@ -59,159 +59,100 @@
     </header>
     <!-- MAIN -->
     <main class="site-main">
-      <section class="section-find-talant">
+      <section class="contact">
         <div class="container">
-          <div class="find-talant">
-            <div class="find-talant-title">
-              <h2>
-                Find the <br />
-                best <span class="talant-color">talent</span>
-              </h2>
-            </div>
-            <div class="find-talant-text">
-              <span class="find-talant-text-span"></span>
-              <p>
-                Finding the right people and building high performing teams can
-                be hard. Most companies aren't tapping into the abundance of
-                global talent. We're about to change that.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section-delivering">
-        <div class="container">
-          <div class="delivering">
-            <div class="delivering-title">
-              <span class="best-talant-text-span delivering-title-span"></span>
-              <h3>Build & manage distributed teams like no one else.</h3>
-            </div>
-            <div class="delivering-content">
-              <ul class="delivering-list">
-                <li class="delivering-items">
-                  <img
-                    src="./img/product-img1.svg"
-                    alt="Site product image"
-                    width="72"
-                    height="72"
-                  />
-                  <div class="delivering-items-content">
-                    <h4>Experienced Individuals</h4>
-                    <p>
-                      Our network is made up of highly experienced professionals
-                      who are passion ate about what they do.
-                    </p>
-                  </div>
+          <div class="contact__ask">
+            <div class="contact__title">
+              <h2>Contact</h2>
+              <h3>Ask us about</h3>
+              <ul class="contact__list">
+                <li class="contact__item">
+                  <a class="contact__item-link" href="#link">
+                    <img
+                      src="./img/product-img1.svg"
+                      alt="Contact image"
+                      width="72"
+                      height="72"
+                    />
+                    <p>The quality of our talent network</p>
+                  </a>
                 </li>
-                <li class="delivering-items">
-                  <img
-                    src="./img/product-img2.svg"
-                    alt="Site product image"
-                    width="72"
-                    height="72"
-                  />
-                  <div class="delivering-items-content">
-                    <h4>Experienced Individuals</h4>
-                    <p>
-                      Our network is made up of highly experienced professionals
-                      who are passion ate about what they do.
-                    </p>
-                  </div>
+                <li class="contact__item">
+                  <a class="contact__item-link" href="#link">
+                    <img
+                      src="./img/product-img2.svg"
+                      alt="Contact image"
+                      width="72"
+                      height="72"
+                    />
+                    <p>Usage & implementation of our software</p>
+                  </a>
                 </li>
-                <li class="delivering-items">
-                  <img
-                    src="./img/product-img3.svg"
-                    alt="Site product image"
-                    width="72"
-                    height="72"
-                  />
-                  <div class="delivering-items-content">
-                    <h4>Experienced Individuals</h4>
-                    <p>
-                      Our network is made up of highly experienced professionals
-                      who are passion ate about what they do.
-                    </p>
-                  </div>
+                <li class="contact__item">
+                  <a class="contact__item-link" href="#link">
+                    <img
+                      src="./img/product-img3.svg"
+                      alt="Contact image"
+                      width="72"
+                      height="72"
+                    />
+                    <p>How we help drive innovation</p>
+                  </a>
                 </li>
               </ul>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section-success">
-        <div class="container">
-          <div class="stories">
-            <div class="stories-title">
-              <h5>
-                Delivering real results for top companies. Some of our
-                <span>success stories.</span>
-              </h5>
+            <div class="contact__form">
+              <form action="https://echo.htmlacademy.ru" method="POST">
+                <label class="contact__label" for="first-name"></label>
+                <input class="contact__input"
+                  id="first-name"
+                  name="first_name"
+                  type="text"
+                  placeholder="Name"
+                  autocomplete="off"
+                  required
+                />
+                <br />
+                <label for="user-email"></label>
+                <input class="contact__input"
+                  id="user-email"
+                  name="user_email"
+                  type="email"
+                  placeholder="Email Address"
+                  autocomplete="off"
+                />
+               
+                <br />
+                <label for="company-name"></label>
+                <input class="contact__input"
+                  id="company-name"
+                  name="company_name"
+                  type="text"
+                  placeholder="Company Name"
+                  autocomplete="off"
+                  required
+                />
+                <br />
+                <label for="title-name"></label>
+                <input class="contact__input"
+                  id="title-name"
+                  name="title_name"
+                  type="text"
+                  placeholder="Title"
+                  autocomplete="off"
+                  required
+                />
+                <label for="user-comment"></label>
+                <br />
+                <textarea class="contact__textarea"
+                  name="user_comment"
+                  id="user-comment"
+                  placeholder="Message"
+                ></textarea>
+                <br />
+                <button class="contact__button" type="submit">Submit</button>
+              </form>
             </div>
-            <ul class="stories-list">
-              <li class="stories-items">
-                <p class="stories-items-text-1">
-                  “The team perfectly fit the specialized skill set required.
-                  They focused on the most essential features helping us launch
-                  the platform eight months faster than planned.”
-                </p>
-                <h6 class="title-name">Kady Baker</h6>
-                <blockquote class="stories-items-text-2">
-                  Product Manager at Bookmark
-                </blockquote>
-                <img
-                  class="avatar"
-                  src="./img/avatar-1.svg"
-                  alt="Avatar image"
-                  width="62"
-                  height="62"
-                />
-              </li>
-
-              <li class="stories-items">
-                <blockquote class="stories-items-text-1">
-                  “We needed to automate our entire onboarding process. The team
-                  came in and built out the whole journey. Since going live,
-                  user retention has gone through the roof!”
-                </blockquote>
-                <h6 class="title-name">Aiysha Reese</h6>
-                <p class="stories-items-text-2">Founder of Manage</p>
-                <img
-                  class="avatar"
-                  src="./img/avatar-2.svg"
-                  alt="Avatar image"
-                  width="62"
-                  height="62"
-                />
-              </li>
-
-              <li class="stories-items">
-                <blockquote class="stories-items-text-1">
-                  “Amazing. Our team helped us build an app that delivered a new
-                  experience for hiring a physio. The launch was an instant
-                  success with 100k downloads in the first month.”
-                </blockquote>
-                <h6 class="title-name">Arthur Clarke</h6>
-                <p class="stories-items-text-2">Co-founder of MyPhysio</p>
-                <img
-                  class="avatar"
-                  src="./img/avatar-3.svg"
-                  alt="Avatar image"
-                  width="62"
-                  height="62"
-                />
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <section class="section-ready">
-        <div class="container">
-          <div class="get-start">
-            <h6 class="get-start-title">Ready to get started?</h6>
-            <a class="contakt-us contakt-us-2" href="#link">contact us</a>
           </div>
         </div>
       </section>
